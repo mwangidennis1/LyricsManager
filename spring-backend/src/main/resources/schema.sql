@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS music (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    song_title VARCHAR(255) NOT NULL,
+    lyrics TEXT
+    );

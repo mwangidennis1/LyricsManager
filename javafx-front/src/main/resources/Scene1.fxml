@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="302.0" prefWidth="511.0" style="-fx-background-color: #301934;">
+         <children>
+            <Label layoutX="104.0" layoutY="179.0" text="Lyrics Manager" textFill="#d9c870">
+               <font>
+                  <Font name="Miriam Mono CLM Bold" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="116.0" fitWidth="200.0" layoutX="187.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="219.0" layoutY="235.0" text="Loading" textFill="WHITE">
+               <font>
+                  <Font name="Liberation Sans" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="232.0" text="...." textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
