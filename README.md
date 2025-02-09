@@ -1,7 +1,10 @@
 # Lyrics Manage
-This project was developed as part of SWE2040 : Programming with Frameworks and Networking :
+This project was developed as part of SWE2040 : Programming with Frameworks and Networking
+
 It is a program consisting of two modules spring-backend and javafx-front
+
 The spring-backend module acts contains the application server which contains the backend  logic and also a web-component
+
 The javafx-front module is a desktop client  for the spring-backend  module which allows for creation and management of lyrics
 
 The project allows for the creation of song lyrics from the desktop client and users can view song lyrics from the web component
@@ -14,8 +17,9 @@ The project allows for the creation of song lyrics from the desktop client and u
  * Java runtime environment , JDK 17+
  * maven locally installed and can be accessed 
  * port 5000 should not be in use
- To run the backend first:
- ```
+
+To run the backend first:
+```
   https://github.com/mwangidennis1/LyricsManager.git
   cd LyricsManager/spring-backend
   mvn clean install
