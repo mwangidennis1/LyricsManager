@@ -1,4 +1,4 @@
-# Lyrics Manage
+# Lyrics Manager
 This project was developed as part of SWE2040 : Programming with Frameworks and Networking
 
 It is a program consisting of two modules spring-backend and javafx-front
